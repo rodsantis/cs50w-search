@@ -1,0 +1,88 @@
+.center-elements {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.search-location {
+  position: relative;
+  margin: 180px auto;
+}
+
+.full-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-style {
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.button-style {
+  display: inline;
+  width: 200px;
+  font-size: 18px;
+  border: none;
+  background-color: rgba(225, 230, 235, 0.967);
+  padding: 14px 28px;
+  cursor: pointer;
+}
+
+.input-style {
+  padding: 12px 20px;
+  margin: 30px 0 10px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 25px;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+div form input {
+  display: block;
+  margin: 10px auto;
+}
+
+a {
+  color: rgb(61, 158, 243);
+}
+
+a:visited {
+  color: rgb(75, 55, 137);
+}
+
+a:hover,
+a:active {
+  color: #258502;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li {
+  float: right;
+}
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
