@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rodrigo De Santis" />
+    <meta name="description" content="This is the first project of CS50W" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="advanced.css" />
+    <title>Advanced Search</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="image.html">CS50W Image</a></li>
+          <li><a href="index.html">CS50W Search</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="advanced-bar">
+        <h3 class="heading-style">Advanced Search</h3>
+      </div>
+      <hr class="full-line" />
+      <br>
+      <fieldset>
+        <legend>Find pages with...</legend>
+      <div class="wrapper-container">
+        <form action="https://www.google.com/search">
+          <div class="row">
+            <div class="col-1">
+              <label for="field-1">all these words:</label>
+            </div>
+            <div class="col-2">
+              <input
+                type="text"
+                id="field-1"
+                name="as_q"
+                value
+                autofocus="autofocus"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <label for="field-2">this exact word or phrase:</label>
+            </div>
+            <div class="col-2">
+              <input type="text" id="field-2" name="as_epq" value />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <label for="field-3"> any of these words: </label>
+            </div>
+            <div class="col-2">
+              <input type="text" id="field-3" name="as_oq" value />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <label for="field-4"> none of these words: </label>
+            </div>
+            <div class="col-2">
+              <input type="text" id="field-4" name="as_eq" value />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <label for="field-5"> numbers raging from: </label>
+            </div>
+            <div class="col-2" style="position: relative">
+              <div style="display: table; width: 100%">
+                <div style="display: table-cell; padding-right: 16px">
+                  <input type="text" id="field-5" name="as_nlo" />
+                </div>
+                <div
+                  style="
+                    display: table-cell;
+                    width: 40px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    text-align: center;
+                    font-size: 13px;
+                  "
+                >
+                  to
+                </div>
+                <div style="display: table-cell; padding-right: 16px">
+                  <input type="text" name="as_nhi" />
+                </div>
+              </div>
+            </div>
+          </div>
+          </fieldset>
+          <div class="line-breaker"></div>
+          <br>
+          <fieldset>
+            <legend> Then narrow your</legend>
+            <legend>results by...</legend>
+            <!-- TO DO -->
+            <!-- TO DO -->
+            <!-- TO DO -->
+            <!-- TO DO -->
+            <!-- TO DO -->
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
